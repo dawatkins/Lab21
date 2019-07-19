@@ -1,0 +1,52 @@
+
+body {
+  background-color: grey;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+p{
+  color: Blue;
+}
+
+h1{
+  text-align: center;
+  color: aqua;
+}
+h3{
+  color: white;
+  text-align: center
+}
+h2{
+  color: white;
+}
+#david-about{
+  width: 50%
+}
+#david-about{
+  transform: rotate(360deg);
+  transition: transform 200ms;
+}
+#david-about:hover{
+  transform: rotate(-360deg);
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div{
+  text-align: center;
+}
+.small{
+  width: 35%
+}
+.first{
+  transform: rotate(-30deg);
+}
+.last{
+  transform: rotate(30deg);
+  width: 50%
+}
